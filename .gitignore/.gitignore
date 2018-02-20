@@ -1,0 +1,12 @@
+import discord
+from discord.ext import commands
+Spam = commands.Bot(command_prefix='Spam', description='Spams everything')
+@bot.event
+async def on_ready():
+    print('Logged in as')
+    print(Spam.user.name)
+    @bot.command()
+"""Description of command goes here"""
+async def hello():
+    await bot.say('Hello
+    bot.run('NDE1Mjk3NjE1MDg1Njk5MDk5.DWz3nw.Ca2V65Ywzx-rqEN_tv5vcAdJYxs')
